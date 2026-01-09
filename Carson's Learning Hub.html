@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learning Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f6fb;
+      text-align: center;
+    }
+
+    header {
+      background: #2a6df4;
+      color: white;
+      padding: 25px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 30px 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-decoration: none;
+      color: #333;
+      font-size: 22px;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.04);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    }
+
+    .emoji {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      margin-top: 20px;
+      padding: 15px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    📚 Carson's Learning Hub
+  </header>
+
+  <div class="container">
+
+    <a class="card" href="https://www.khanacademy.org/math/arithmetic">
+      <div class="emoji">🧮</div>
+      Khan Academy
+    </a>
+
+    <a class="card" href="https://www.typing.com/student/lessons">
+      <div class="emoji">⌨️</div>
+      Typing
+    </a>
+
+    <a class="card" href="https://theetiquettefactory.com/lifeskills/my-student-account/">
+      <div class="emoji">🎓</div>
+      Etiquette
+    </a>
+
+    <a class="card" href="https://www.w3schools.com/">
+      <div class="emoji">💻</div>
+      Coding
+    </a>
+
+    <a class="card" href="https://mylibrary.polarislibrary.com/polaris/logon.aspx?header=1">
+      <div class="emoji">📚</div>
+      Library
+    </a>
+
+  </div>
+
+  <footer>
+    Select a subject to begin learning
+  </footer>
+
+</body>
+</html>
